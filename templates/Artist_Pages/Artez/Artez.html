@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Tbilisi Mural Fest </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Tbilisi Mural Fest">
+    <meta name="keywords"
+        content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival">
+    <meta name="author" content="Tbilisi Mural Fest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/Faster.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
+    <script src="/static/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/templates/header.html");
+            $("#footer").load("/templates/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <div id="header"></div>
+    <div class="nav-bar-spacer"></div>
+
+
+    <div class="container">
+        <main>
+            <div class="row">
+                <div class="left col-lg-4">
+                    <div class="photo-left">
+                        <img class="photo" src="/static/images/Profile Pictures/Artez.webp" />
+                    </div>
+
+                    <hr>
+                    <div class="Section-Title">
+                        <h1>Artez</h1>
+                    </div>
+                    <hr>
+                    <p class="desc">Artez is a Serbian artist whose style is defined as a mixing photorealism with
+                        illustration. He draws inspiration for his works, besides location, from the things and persons
+                        that are present in his everyday life. He usually has a photo of something that inspires him as
+                        a starting point, but during the painting process he improvises a lot, mostly because he likes
+                        to get inspiration from the site itself. For years he was trying to find the best way to express
+                        himself and transfer ideas from his head to the flat surface – wall. Along the way, he has been
+                        working with 2D and 3D letters, different types and styles of characters, photorealism, and in
+                        the end he got stuck with the mix of “little bit from everything”.</p>
+
+                    <div class="container">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="https://www.facebook.com/ArtezStreetArt/"><i class="icon-facebook"></i></a>
+                                </li>
+                                <li><a
+                                        href="https://www.instagram.com/artez_online/?fbclid=IwAR3Ir6iTUL7rxIiPN-71FALXNM8d0vkDsi2Fy5VYoquwwcvl_8Le3N9dy2E"><i
+                                            class="icon-instagram"></i></a></li>
+                                <li><a
+                                        href="https://artezonline.com/?fbclid=IwAR1IFtOh5ghnrChARs0QNah6eiMr_zfQ0zO5YVygdNtLVAJhcHmNPTHckX0"><i
+                                            class="icon-globe"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-lg-8 verticalCenter">
+                    <div id="year-list" class="year-list">
+                        <div class="year-list-item">Kiu 2020</div>
+                        |
+                        <div class="year-list-item">Tbilisi 2021</div>
+                        |
+                        <div class="year-list-item active">Tbilisi 2022</div>
+                    </div>
+                    <div id="year-Kiu 2020" class="swiper-container container-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="kiu.jpg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination1"></div>
+                    </div>
+
+                    <div id="year-Tbilisi 2021" class="swiper-container container-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="artez 1 2020.jpg" /></div>
+                            <div class="swiper-slide"> <img src="artez 2 2020.jpg" /></div>
+                            <div class="swiper-slide"> <img src="artez 4 2020.jpg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination2"></div>
+                    </div>
+
+                    <div id="year-Tbilisi 2022" class="swiper-container active-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="image0 (1).jpeg" /></div>
+                            <div class="swiper-slide"> <img src="image2 (1).jpeg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination2"></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script src="/static/js/swiper.js"></script>
+                </div>
+        </main>
+    </div>
+    <script src="/static/js/artist-gallery.js"></script>
+    <div id="footer"></div>
+</body>
+
+</html>

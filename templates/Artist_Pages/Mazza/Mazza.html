@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Tbilisi Mural Fest </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Tbilisi Mural Fest">
+    <meta name="keywords" content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival">
+    <meta name="author" content="Tbilisi Mural Fest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/Faster.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
+    <script src="/static/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("/templates/header.html");
+            $("#footer").load("/templates/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <div id="header"></div>
+    <div class="nav-bar-spacer"></div>
+
+
+    <div class="container">
+        <main>
+            <div class="row">
+                <div class="left col-lg-4">
+                    <div class="photo-left">
+                        <img class="photo" src="/static/images/Profile Pictures/Mazza.webp" />
+                    </div>
+
+                    <hr>
+                    <div class="Section-Title">
+                        <h1>Mazza</h1>
+                    </div>
+                    <hr>
+
+                    <p class="desc">Thiago Mazza, 1984, was born in Belo Horizonte, Brazil. He holds a degree in Graphic Design from the State University of Minas Gerais – UEMG. Self-taught in painting, he came into contact with graffiti in 2010 and then started painting
+                        walls. Thiago appears as a great exponent of contemporary Brazilian muralism. He is known in the contemporary urban art scene for his mastery of representation of fauna and flora. His current subject of studies is tropical plants,
+                        their lush structure and dense foliage. Thiago has participated in festivals around the world, such as Artscape (Sweden), Vukovart (Croatia), UpFest (United Kingdom), Stenograffia (Russia), IPAF (Mexico) and CURA (Brazil). His
+                        work dialogues with classical painting, street art and contemporary art.</p>
+
+                    <div class="container">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="https://thiagomazza.com.br/"><i class="icon-globe"></i></a></li>
+                                <li><a href="https://www.instagram.com/mazzolandia/?hl=en"><i class="icon-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-lg-8 verticalCenter">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="1.jpeg" /></div>
+                            <div class="swiper-slide"> <img src="image00007.jpeg" /></div>
+                            <div class="swiper-slide"> <img src="image00009.jpeg" /></div>
+                            <div class="swiper-slide"> <img src="image00012.jpeg" /></div>
+                            <div class="swiper-slide"> <img src="3.jpeg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script src="/static/js/swiper.js"></script>
+                </div>
+        </main>
+        </div>
+
+        <div id="footer"></div>
+</body>
+
+</html>

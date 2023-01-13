@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Tbilisi Mural Fest </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Tbilisi Mural Fest">
+    <meta name="keywords"
+        content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival">
+    <meta name="author" content="Tbilisi Mural Fest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/Faster.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
+    <script src="/static/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/templates/header.html");
+            $("#footer").load("/templates/footer.html");
+        });
+    </script>
+</head>
+
+
+<body>
+    <div id="header"></div>
+    <div class="nav-bar-spacer"></div>
+
+
+    <div class="container">
+        <main>
+            <div class="row">
+                <div class="left col-lg-4">
+                    <div class="photo-left">
+                        <img class="photo" src="/static/images/Profile Pictures/Mross.webp" />
+                    </div>
+
+                    <hr>
+                    <div class="Section-Title">
+                        <h1>Matthias Mross</h1>
+                    </div>
+                    <hr>
+
+                    <p class="desc">Deliciously vibrant, stunningly precise and nonchalantly seducing – artworks by
+                        German artist Matthias Mross are the most brilliant transgression of street art, entering with
+                        serenity into the world of highbrow art.
+
+                        In street art the subjects that attach Matthias Mross might seem as not entirely new – but how
+                        he does his works is more than fresh and thrilling. His catchy eye and an immense talent make
+                        his hyper-realistic works not only authentic but actually groundbreaking. Although he is still
+                        being invited to paint on walls, his smaller scale pieces are taking his talent to the next
+                        level.
+
+                        Mross incarnates all that has been serving as inspiration in past few years – flashes of retro
+                        futurism, the odd aesthetics of the 1990s, suburban freedom, seducing power of youth and the
+                        game of contrast - when fake meets luxurious, countryside confronts city and artistry faces
+                        baloney.
+
+                        Youngsters, wearing their casual sport brand sweatpants, riding horses somewhere on the
+                        outskirts of a big city, are the heroes of a cycle entitled Urban Cowboys, where Mross takes a
+                        significant step forward, a liminal move that transgresses his art into something entirely new.
+                    </p>
+
+                    <div class="container">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="https://www.facebook.com/matze.mazal"><i class="icon-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/matthiasmross/?hl=en"><i
+                                            class="icon-instagram"></i></a></li>
+                                <li><a href="https://matthias-mross.de/node/41"><i class="icon-globe"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="right col-lg-8 verticalCenter">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="Mross.jpeg" /></div>
+                            <div class="swiper-slide"> <img src="image0.jpeg" /></div>
+                            <div class="swiper-slide"> <img src="image1.jpeg" /></div>
+                            <div class="swiper-slide"> <img src="image3.jpeg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script src="/static/js/swiper.js"></script>
+                </div>
+        </main>
+    </div>
+
+    <div id="footer"></div>
+</body>
+
+</html>

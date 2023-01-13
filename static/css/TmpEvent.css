@@ -1,0 +1,191 @@
+.Main-Wrapper{
+
+    text-align: center;
+    
+    
+    
+    }
+    
+    
+    
+    .aligner{
+    
+    text-align: center;
+    
+    
+    }
+    
+    
+    
+    .project{
+    
+      height: 150px;
+      display:block;
+      width: auto;
+      margin-top:50px;
+      padding-left:15px;
+      text-align: left;
+      background-color: white;
+    }
+    
+    
+    .demo1{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    display: inline-block;
+    float: left;
+    background-image: url("Images/workshop.jpg");
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: 150px 150px;
+     margin-right: 25px;
+    
+    
+    }
+    
+    .demo2{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    display: inline-block;
+    float: left;
+    background-image: url("Images/open-air.jpg");
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: 150px 150px;
+     margin-right: 25px;
+    }
+    
+    
+    .demo3{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    display: inline-block;
+    float: left;
+    background-image: url("Images/demo3.png");
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: 150px 150px;
+     margin-right: 25px;
+    }
+    
+    
+    .demo4{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    display: inline-block;
+    float: left;
+    background-image: url("Images/demo4.png");
+    background-repeat: no-repeat;
+     background-position: center;
+     background-size: 150px 150px;
+     margin-right: 25px;
+    }
+    
+    
+    .info{
+      text-decoration: none;
+      color:black;
+      font-size: 12px;
+    }
+    
+    a{
+      text-decoration: none;
+      color:black;
+    }
+    
+    
+    @media screen and (min-width: 1200px) {
+    
+      .main-wrapper{
+     text-align: center;
+    
+      }
+    
+    
+      .aligner{
+        display: inline-block;
+        width: 70%;
+      }
+    
+    
+    
+      .project{
+    
+        height: 200px;
+        background-color: white;
+        width:800px;
+        margin-top:50px;
+      }
+    
+    
+      .demo1{
+      height: 200px;
+      width: 200px;
+      background-color: black;
+      display: inline-block;
+      float: left;
+      background-image: url("Images/workshop.jpg");
+      background-repeat: no-repeat;
+       background-position: center;
+       background-size: 200px 200px;
+      }
+    
+      .demo2{
+      height: 200px;
+      width: 200px;
+      background-color: black;
+      display: inline-block;
+      float: left;
+      background-image:url("Images/open-air.jpg");
+      background-repeat: no-repeat;
+       background-position: center;
+       background-size: 200px 200px;
+      }
+    
+      .demo3{
+      height: 200px;
+      width: 200px;
+      background-color: black;
+      display: inline-block;
+      float: left;
+      background-image:url("Images/demo3.png");
+      background-repeat: no-repeat;
+       background-position: center;
+       background-size: 200px 200px;
+      }
+      
+       .demo4{
+      height: 200px;
+      width: 200px;
+      background-color: black;
+      display: inline-block;
+      float: left;
+      background-image:url("Images/demo4.png");
+      background-repeat: no-repeat;
+       background-position: center;
+       background-size: 200px 200px;
+      }
+    
+    
+    
+    
+    
+    
+      .info{
+        padding-right: 250px;
+        width: 300px;
+        height: 200px;
+        float:right;
+        text-align: left;
+        display:inline-block;
+        background-color: white;
+      }
+    
+    
+    
+    }
+    

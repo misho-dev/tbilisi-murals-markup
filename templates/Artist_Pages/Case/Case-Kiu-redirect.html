@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title> Tbilisi Mural Fest </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Tbilisi Mural Fest">
+    <meta name="keywords"
+        content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival">
+    <meta name="author" content="Tbilisi Mural Fest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/Faster.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+
+    <script src="/static/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/templates/header.html");
+            $("#footer").load("/templates/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="nav-bar-spacer"></div>
+
+    <div class="container">
+        <main>
+            <div class="row">
+                <div class="left col-lg-4">
+                    <div class="photo-left">
+                        <img class="photo" src="/static/images/Profile Pictures/Case.webp" />
+                    </div>
+
+                    <hr>
+                    <div class="Section-Title">
+                        <h1>Case Maclaim</h1>
+                    </div>
+                    <hr>
+
+                    <p class="desc">A German urban artist native to Frankfurt,
+                        Andres Von Chrzanowski (a.k.a. CASE or CASE Maclaim) is a
+                        graffiti painter who relies on his highly developed talent to
+                        create pieces that combine brilliant photorealism with a strong
+                        note of surrealism. This artist primarily uses spray paint as
+                        this street art technique enables him to get the most out of his
+                        visuals and achieve the level of perfection his incredibly life-like
+                        graffiti possess. One of Andres Von Chrzanowski’s most common pictorial
+                        motifs are the overlaying hands that symbolize unity and power. It should
+                        also be noted that CASE is a founding member of the renown East- Germany Maclaim
+                        Crew, a group that has been the urban expression’s photorealism pioneer for over two decades
+                        now.</p>
+
+                    <div class="container">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a href="https://www.facebook.com/people/case_maclaim/100044881484595/"><i
+                                            class="icon-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/case_maclaim/"><i class="icon-instagram"></i></a>
+                                </li>
+                                <li><a
+                                        href="http://case-maclaim.com/?fbclid=IwAR0MuPDIZDeRw444-dwKawaCc6DiqvB0fZLlTEQj2hDOjfZm6cvrmTHl1Ls"><i
+                                            class="icon-globe"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="right col-lg-8 verticalCenter">
+                    <div id="year-list" class="year-list">
+                        <div class="year-list-item">Tbilisi 2019</div>
+                        |
+                        <div class="year-list-item active">Kiu 2020</div>
+                        |
+                        <div class="year-list-item "">Tbilisi 2020</div>
+                    </div>
+                    
+                    <div id="year-Tbilisi 2019" class="swiper-container container-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="mclain1.jpg" /></div>
+                            <div class="swiper-slide"> <img src="mclaim 1 2019.jpg" /></div>
+                            <div class="swiper-slide"> <img src="mclain3.jpg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination1"></div>
+                    </div>
+
+                    <div id="year-Kiu 2020" class="swiper-container active-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="case .jpg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination1"></div>
+                    </div>
+
+                    <div id="year-Tbilisi 2020" class="swiper-container container-hidden">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"> <img src="mclaim 1 2020.jpg" /></div>
+                            <div class="swiper-slide"> <img src="mclaim 3 2020.jpg" /></div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination2"></div>
+                    </div>
+
+                    <!-- Swiper JS -->
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script src="/static/js/swiper.js"></script>
+                </div>
+        </main>
+    </div>
+
+
+
+    <script src="/static/js/artist-gallery.js"></script>
+    <hr>
+    <div id="footer"></div>
+
+</body>
+
+</html>

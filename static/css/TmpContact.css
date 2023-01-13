@@ -1,0 +1,23 @@
+.Second-Wrapper {
+    border-top: solid 5px;
+    border-color: black;
+    padding: 0px;
+    width: 100%;
+    height: 93vh;
+    background-image: url("/static/images/innerfields\ 1\ 2020.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Links-Second {
+    width: 95%;
+    height: 520px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+}
