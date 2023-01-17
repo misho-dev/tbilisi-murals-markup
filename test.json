@@ -1,0 +1,357 @@
+[
+  {
+    "id": 1,
+    "name": "Dato Machavariani",
+    "link": "/templates/artist-template.html?id=1&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/dato.webp",
+    "images": [
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.jpg"]}
+    ],
+    "bio": "---",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 2,
+    "name": "LUIS GINEZ DE TERAN",
+    "link": "/templates/artist-template.html?id=2&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/luis.webp",
+    "images": [
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.jpg"]}
+    ],
+    "bio": "---",
+    "facebook_link": "https://www.facebook.com/luis.gomezdeteran/",
+    "instagram_link": "https://www.instagram.com/luisgomezdeteran/?hl=en",
+    "website_link": ""
+  },
+  {
+    "id": 3,
+    "name": "Vesod",
+    "link": "/templates/artist-template.html?id=3&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/vesod.webp",
+    "images": [
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.jpg"]}
+    ],
+    "bio": "Vesod was born in Turin in 1981 and he lives and works in a Venaria Reale. His artistic attitude has been fostered by his father Dovilio Brero, surrealistic painter, whose influence has an impact on Vesod since his youth: he has been therefore developing an interest in the graffiti world since the beginning of the 90s.Due to the artistic partnerships and contacts which Vesod has started in those teenager years, he has lately begun his professional path. He has been seeking for ten years a personal painting language in which the graffiti plays a central role, while dedicating time to his own cultural and academic education.",
+    "facebook_link": "https://www.facebook.com/VesodB",
+    "instagram_link": "https://www.instagram.com/vesod/",
+    "website_link": "http://www.vesod.com/bio/"
+  },
+  {
+    "id": 4,
+    "name": "Sasha Korban",
+    "link": "/templates/artist-template.html?id=4&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/sasha.webp",
+    "images": [
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.jpg"]}
+    ],
+    "bio": "Born on March 12, 1987, in Kirovske of Donetsk Region, Ukraine. In 2006-2011 he worked as a miner at the mine “Komsomolets Donbasu”. For the first time he tried to create street art as far back as in 2002. But he thinks that the start of his conscious work on the street as a graffiti artist was in 2009.",
+    "facebook_link": "https://www.facebook.com/Sasha.Korban2/",
+    "instagram_link": "https://www.instagram.com/sasha.korban/?hl=en",
+    "website_link": ""
+  },
+  {
+    "id": 5,
+    "name": "MOHAMED I G’HACHAM",
+    "link": "/templates/artist-template.html?id=5&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/mohamed.webp",
+    "images": [
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.jpeg"]}
+    ],
+    "bio": "---",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 6,
+    "name": "Fintan Magee",
+    "link": "/templates/artist-template.html?id=6&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/fintan.webp",
+    "images": [
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg"]}
+    ],
+    "bio": "Fintan Magee is a Sydney based social realist painter, specializing in large-scale murals. Born in 1985 in Lismore, New South Wales, to an architect mother and father who was a sculptor, he started drawing at a young age. His earlier large-scale paintings often inhabited the isolated, abandoned and broken corners of the city, and today are found all over the world including in London, Vienna, Los Angeles, Miami, Atlanta, Buenos Aires, Copenhagen, Moscow, Rome, Jordan, and Dublin among others. ",
+    "facebook_link": "https://www.facebook.com/fintanmageeart/",
+    "instagram_link": "https://www.instagram.com/fintan_magee/",
+    "website_link": "https://fintanmagee.com"
+  },
+  {
+    "id": 7,
+    "name": "JDL",
+    "link": "/templates/artist-template.html?id=7&year=2021&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/jdl.webp",
+    "images": [
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg"]}
+    ],
+    "bio": "---",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 8,
+    "name": "Tina Chertova",
+    "link": "/templates/artist-template.html?id=8&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/tina.webp",
+    "images": [
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.png"]}
+    ],
+    "bio": "---",
+    "facebook_link": "https://www.facebook.com/ChertovaT",
+    "instagram_link": "https://www.instagram.com/chertovatina/?hl=en",
+    "website_link": "https://fb.me/e/26GKgLYUk"
+  },
+  {
+    "id": 9,
+    "name": "Monkeybird",
+    "link": "/templates/artist-template.html?id=9&year=2021&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/monkeybird.webp",
+    "images": [
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpg"]}
+    ],
+    "bio": "Monkey Bird is a duo of French contemporary artists born and working in Bordeaux since 2010. They are known for using symbolic anthropomorphism in their artworks—depicting wild animals in urban areas. They work in stencil, collages, spray painting, drawing, carving, silkscreen, and engraving.",
+    "facebook_link": "https://www.facebook.com/MonkeyBirdCrew/",
+    "instagram_link": "https://www.instagram.com/monkeybirdcrew/?hl=en",
+    "website_link": ""
+  },
+  {
+    "id": 10,
+    "name": "1010",
+    "link": "/templates/artist-template.html?id=10&year=2021&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/1010.webp",
+    "images": [
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg"]}
+    ],
+    "bio": "1010 is a Hamburg-based contemporary artist known for his enigmatic, portal-like street art illusions on walls around the world. Originally from Poland, 1010 moved with his parents to Germany, when he was eight years old. For more than a decade, the artist has been painting walls and making papercuts. Previously he has created contemporary abstract birds and snakes, with some taking on tie-dye and painterly textures with an almost computer generated smoothness. For the past few years 1010 has been mostly focused on an abstract concept of making “holes on the walls”.",
+    "facebook_link": "https://www.facebook.com/1010art/",
+    "instagram_link": "https://www.instagram.com/1010zzz/?hl=en",
+    "website_link": ""
+  },
+  {
+    "id": 11,
+    "name": "David Samkharadze",
+    "link": "/templates/artist-template.html?id=11&year=2021&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/samkharadze.webp",
+    "images": [
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.jpg", "2.jpg", "3.jpg", "4.jpg"]}
+    ],
+    "bio": "David Samkharadze was born in tbilisi in 1985. started doing oilpaintings from 1998 with georgian old generation artist Temo Machavariani, same time studing sculpture in art college named I. Nikoladze. in 2008 finished studing Arcitecture in tbilisi academy of arts. in past years worked as architector and doing different styles of arts as graphic, mural and oilpaintings. currently working on muralpaintings and architecture.",
+    "facebook_link": "https://www.facebook.com/david.samkharadze.75",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 12,
+    "name": "Dante",
+    "link": "/templates/artist-template.html?id=12&year=2021&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/dante-prof.webp",
+    "images": [
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.jpg", "2.jpg"]}
+    ],
+    "bio": "Born in 1987. Started to paint at an early age. His original source of inspiration was fauna. Drawing animals from book illustrations at first, he soon became a frequent guest of Tbilisi Zoo. In 2004 he enrolled in Tbilisi Academy of Arts, working towards a degree in interior design. From that time he actively started to work on murals. His first personal exhibition “All that Jazz” was opened during Tbilisi Jazz Festival in 2014. Young Lions Georgia gold winner in 2017. Today he’s an art director at JWT Metro.",
+    "facebook_link": "https://www.facebook.com/danteee.mch",
+    "instagram_link": "https://www.instagram.com/dante.mdante/?utm_source=ig_embed&utm_campaign=loading&hl=en",
+    "website_link": ""
+  },
+  {
+    "id": 13,
+    "name": "Artez",
+    "link": "/templates/artist-template.html?id=13&year=2022&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/Artez.webp",
+    "images": [
+      {"year" : "2020", "location" : "Kutaisi", "images" : ["4.jpg"]},
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.jpg", "2.jpg", "3.jpg"]},
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["5.jpeg", "6.jpeg"]}
+    ],
+    "bio": "Artez is a Serbian artist whose style is defined as a mixing photorealism with illustration. He draws inspiration for his works, besides location, from the things and persons that are present in his everyday life. He usually has a photo of something that inspires him as a starting point, but during the painting process he improvises a lot, mostly because he likes to get inspiration from the site itself. For years he was trying to find the best way to express himself and transfer ideas from his head to the flat surface – wall. Along the way, he has been working with 2D and 3D letters, different types and styles of characters, photorealism, and in the end he got stuck with the mix of “little bit from everything”.",
+    "facebook_link": "https://www.facebook.com/ArtezStreetArt/",
+    "instagram_link": "https://www.instagram.com/artez_online/?fbclid=IwAR3Ir6iTUL7rxIiPN-71FALXNM8d0vkDsi2Fy5VYoquwwcvl_8Le3N9dy2E",
+    "website_link": "https://artezonline.com/?fbclid=IwAR1IFtOh5ghnrChARs0QNah6eiMr_zfQ0zO5YVygdNtLVAJhcHmNPTHckX0"
+  },
+  {
+    "id": 14,
+    "name": "Noah Kauertz & Aphe",
+    "link": "/templates/artist-template.html?id=14&year=2021&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/Noah.webp",
+    "images": [
+      {"year" : "2020", "location" : "Tbilisi", "images" : ["1.png"]},
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg"]}
+    ],
+    "bio": "The artists APHE (Oliver Hollatz) and NOAH (Noah Kauertz) got to know each other during their art studies in Bonn. Their common interest in art in public space and their passion for painting led to the first mural collaboration in 2019. In the same year, four more murals were created, which significantly shaped the collaboration between the artists in terms of color, style and subject. Their dialogic painting moves fluidly between representation and abstraction and is strongly influenced by an atmospheric color aesthetics.",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 15,
+    "name": "Giorgi Maskharashvili",
+    "link": "/templates/Artist_Pages/Maskharashvili/Maskharashvili.html",
+    "imageLink": "/static/images/Profile Pictures/Maskharashvili.webp",
+    "images": [
+      {"year" : "2020", "location" : "Tbilisi", "images" : ["1.png"]},
+    ],
+    "bio": "Giorgi Maskharashvili was born in Tbilisi in 1977. He first studied at the Tbilisi Academy of Arts, Faculty of Easel Graphics, and then at the Film Directing Faculty of the Georgian State University of Theater and Film. Works as a film and television actor, director and artist.",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 16,
+    "name": "Ino",
+    "link": "/templates/Artist_Pages/Ino/Ino.html",
+    "imageLink": "/static/images/Profile Pictures/Ino.webp",
+    "images": [],
+    "bio": "Best known for his outstanding figurative murals created on a large scale, INO is one of the most internationally recognized Greek street artist. Although he began his career as a graffiti artist in the early 2000s by producing letters and bombing, over the years he has developed his distinctive style characterized by fragmented forms, photorealistic elements and grayscale color palette with touches of light blue. His eye-catching, stylized and clever pieces often deal with social and political themes that affect the average man and woman, creating a dialogue between the viewer and the art.",
+    "facebook_link": "",
+    "instagram_link": "https://www.facebook.com/inoexpo",
+    "website_link": ""
+  },
+  {
+    "id": 17,
+    "name": "El Bocho",
+    "link": "/templates/Artist_Pages/EL_Bocho/El_Bocho.html",
+    "imageLink": "/static/images/Profile Pictures/El-bocho.webp",
+    "images": ["1.jpg", "2.jpg", "3.jpg"],
+    "bio": "El Bocho is a Berlin based artist. He has been working on the streets since 1997 and is by now amongst the most famous and visible street artists in Berlin. Communication and references to urban life are the main components of his work. El Bocho considers himself as an observed observer. It is important to him to work outside the art scene, as this reaches an audience that does not visit art specific locations like galleries or museums. El Bocho picks up the reactions of the viewers and uses them in his works. This creates a constant flow of communication with the public.",
+    "facebook_link": "https://www.facebook.com/elbochoberlin",
+    "instagram_link": "https://www.instagram.com/elbochoberlin/?hl=en",
+    "website_link": "https://elbocho.net/"
+  },
+  {
+    "id": 18,
+    "name": "Luka Japaridze & V4",
+    "link": "/templates/artist-template.html?id=18",
+    "imageLink": "/static/images/Profile Pictures/Japaridze.webp",
+    "images": ["1.jpg", "2.jpg", "3.jpg"],
+    "bio": "Contemporary painter and street artist Luka japaridze was born December 21 1993 in Tbilisi. From 2012 he studing in “Tbilisi state academy of arts”.",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 19,
+    "name": "SNYDER",
+    "link": "/templates/artist-template.html?id=19",
+    "imageLink": "/static/images/Profile Pictures/Snyder.webp",
+    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"],
+    "bio": "---",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 20,
+    "name": "Innerfields",
+    "link": "/templates/Artist_Pages/Innerfields/Innerfields.html",
+    "imageLink": "/static/images/Profile Pictures/Innerfields.webp",
+    "images": [],
+    "bio": "Innerfields are the three artists Jakob Tory Bardou, Holger Weißflog and Veit Tempich. Born and based in Berlin, they‘ve been growing up with graffiti and various influences; they formed as a group in 1998. The artists like to reflekt their environment and create mostly figurative motives in a realistic manner, that are mixed with grafical elements and symbols. The human being, bound to being part of the nature and all to often opposed to it, is a major topic in their body of work. They are creating works of art as a proffession and love taking part in festivals and various art related projekts around the world",
+    "facebook_link": "https://www.facebook.com/innerfields/",
+    "instagram_link": "https://www.instagram.com/innerfields/?hl=en",
+    "website_link": "https://www.innerfields.de/?fbclid=IwAR3UwYT4eqoqx2rmVjyXYL7v8o2acBgkcDKxxh1py1pQqeSdanrnv24Huow"
+  },
+  {
+    "id": 21,
+    "name": "Collin Van Der Sluijs",
+    "link": "/templates/Artist_Pages/Collin/Collin.html",
+    "imageLink": "/static/images/Profile Pictures/Collin.webp",
+    "images": [],
+    "bio": "works and lives in Maastricht, The Netherlands. The work from Collin van der Sluijs has been publicated in magazines, books, and shown in galleries and project-spaces or walls in The Netherlands, Germany, France, England, Belgium, The U.S.A, Luxembourg, Italy, United Kingdom, Spain",
+    "facebook_link": "https://www.facebook.com/collinvandersluijs",
+    "instagram_link": "https://www.instagram.com/collinvandersluijs/?fbclid=IwAR0AQNyKY-KRNwhGyaJR32FC-F1M7VIf9CBbOT2zfeAjnTOwYS0ZB8wRPvc",
+    "website_link": ""
+  },
+  {
+    "id": 22,
+    "name": "Case Maclaim",
+    "link": "/templates/artist-template.html?id=22&year=2020&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/Case.webp",
+    "images": [
+      {"year" : "2019", "location" : "Tbilisi", "images" : ["1.jpg", "2.jpg"]},
+      {"year" : "2020", "location" : "Tbilisi", "images" : ["3.jpg", "4.jpg", "5.jpg"]}
+    ],
+    "bio": "A German urban artist native to Frankfurt, Andres Von Chrzanowski (a.k.a. CASE or CASE Maclaim) is a graffiti painter who relies on his highly developed talent to create pieces that combine brilliant photorealism with a strong note of surrealism. This artist primarily uses spray paint as this street art technique enables him to get the most out of his visuals and achieve the level of perfection his incredibly life-like graffiti possess. One of Andres Von Chrzanowski’s most common pictorial motifs are the overlaying hands that symbolize unity and power. It should also be noted that CASE is a founding member of the renown East- Germany Maclaim Crew, a group that has been the urban expression’s photorealism pioneer for over two decades now.",
+    "facebook_link": "https://www.facebook.com/people/case_maclaim/100044881484595/",
+    "instagram_link": "https://www.instagram.com/case_maclaim/",
+    "website_link": "http://case-maclaim.com"
+  },
+  {
+    "id": 23,
+    "name": "Musya",
+    "link": "/templates/artist-template.html?id=23",
+    "imageLink": "/static/images/Profile Pictures/Musya.webp",
+    "images": ["1.png", "2.png", "3.jpg", "4.png"],
+    "bio": "Born and raised in Georgia, a former Soviet Union country in the far east of Europe. At the age of 16, moved to capital city of Georgia, Tbilisi. Currently25 years old and is based in Tbilisi. She has chosen her occupation since childhood. She always knew that She would do nothing, but only art. Afterwards, while studying at Art Academy she decided to study Graphical Design and elaborated her knowledge in this field. Nowadays she is working as an Art Director in one of the most successful advertising companies in Georgia and also, is pursuing some side projects commercial and non-commercial. She is using different techniques for working, such as painting digital illustrations, hand-painting, wall painting, streetart and stencil; She is also occupied with creating some handicrafts and jewelry.",
+    "facebook_link": "https://www.facebook.com/musyasart/",
+    "instagram_link": "https://www.instagram.com/musyaqeburia/?hl=en",
+    "website_link": ""
+  },
+  {
+    "id": 24,
+    "name": "QUINTE55ENZ",
+    "link": "/templates/artist-template.html?id=24",
+    "imageLink": "/static/images/Profile Pictures/Quinte55enz.webp",
+    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg"],
+    "bio": "Together, the Hanover and Berlin-based artists Thomas Granseuer and Tomislav Topic constitute Quintessenz. Starting out as students at the University of applied Science and Arts in Hildesheim, they developed a unique an unmistakeable signature style. With roots in both grafitti-culture and chromatics, Quintessenz combine painting, moving image, and installation. Space is the fundamental inspiration for Quintessenz. Their work not only uses shapes and patterns found in architecture, it interferes with its environment, changing the spectators perception (of space).",
+    "facebook_link": "",
+    "instagram_link": "https://www.instagram.com/quinte55enz/?hl=en",
+    "website_link": ""
+  },
+  {
+    "id": 25,
+    "name": "Kera",
+    "link": "/templates/artist-template.html?id=25",
+    "imageLink": "/static/images/Profile Pictures/Kera.webp",
+    "images": ["1.jpg", "2.jpg", "3.jpg"],
+    "bio": "“Kera“ who was born in Berlin in 1985 occupies himself with colours, printing techniques and facade design over more than 19 years. At the same time Kera always found new impulses through his love for haptic and technically things. Especiall y the interconnection of working with the computer and the realization on the wall attract the artist. When looking at his artwork one sees a reflection of his graphic-design studies, his passion for geometric lines and spaces.",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 26,
+    "name": "Matthias Mross",
+    "link": "/templates/artist-template.html?id=26",
+    "imageLink": "/static/images/Profile Pictures/Mross.webp",
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"],
+    "bio": "Deliciously vibrant, stunningly precise and nonchalantly seducing – artworks by German artist Matthias Mross are the most brilliant transgression of street art, entering with serenity into the world of highbrow art. In street art the subjects that attach Matthias Mross might seem as not entirely new – but how he does his works is more than fresh and thrilling. His catchy eye and an immense talent make his hyper-realistic works not only authentic but actually groundbreaking. Although he is still being invited to paint on walls, his smaller scale pieces are taking his talent to the next level. ",
+    "facebook_link": "https://www.facebook.com/matze.mazal",
+    "instagram_link": "https://www.instagram.com/matthiasmross/?hl=en",
+    "website_link": "https://matthias-mross.de/node/41"
+  },
+  {
+    "id": 27,
+    "name": "Irakli Qadeishvili & Zviad Esartia",
+    "link": "/templates/Artist_Pages/Qadeishvili/Qadeishvili.html",
+    "imageLink": "/static/images/Profile Pictures/Qadeishvili.webp",
+    "images": [],
+    "bio": "My name is Irakli Qadeishvili and I was born on 22nd of May, 1989 in Tbilisi, the capital of Georgia. I am an artist, muralist and an architect by profession. My passion for art started at an early age. When I was about four I made my first painting. The composition of the painting consisted of colorful circles – I tried to convey music through this picture. Subsequently, drawing became the primary source of my communication. As growing up, I created paintings on huge canvases and papers.",
+    "facebook_link": "",
+    "instagram_link": "https://www.instagram.com/iraklikadeishvili/",
+    "website_link": ""
+  },
+  {
+    "id": 28,
+    "name": "HRVB",
+    "link": "/templates/artist-template.html?id=29",
+    "imageLink": "/static/images/Profile Pictures/HRVB.webp",
+    "images": ["1.jpg", "2.jpg", "3.jpg", "4.jpg"],
+    "bio": "Hi. I'm Tom, a freelance illustrator and graffiti artist located in Berlin. My focus is on character design, complex illustrations and painting murals. The projects I work for are insanely diverse and consequently the challenge that is needed for an artist to develop. I'm an inherently curious person and absorbing my environment with eyes and ears. Furthermore, I'm a really fun loving person and always up for anything. In any way, my brain seems to link all these information and emotions and to reissue them in form of my paintings. This is what constitutes my inspiration in the creative process.",
+    "facebook_link": "",
+    "instagram_link": "https://www.instagram.com/hrvbtheweird/?hl=en",
+    "website_link": "https://herr-bias.de"
+  },
+  {
+    "id": 29,
+    "name": "Faith47",
+    "link": "/templates/artist-template.html?id=30",
+    "imageLink": "/static/images/Profile Pictures/faith.webp",
+    "images": ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg"],
+    "bio": "Faith47 / Faith XLVII (born Cape Town, 1979) is a South African interdisciplinary artist who has held solo exhibitions in Miami (2018), New York City (2015), London (2014) and Johannesburg (2012). As both a notable South African and woman artist, Faith speaks to issues of human rights, spiritual endurance and social issues. As both a notable South African and woman artist, Faith speaks to issues of human rights, spiritual endurance and social issues. Faith XLVII began painting in 1997, three years after the end of apartheid. Using a wide range of media, her approach is explorative and substrate appropriate – from found and rescued objects, to time-layered and history-textured city walls, to studio-prepared canvas and wood. A self-taught artist, Faith is widely regarded as one of the most famous South African street artists, her art reaching international fame.",
+    "facebook_link": "",
+    "instagram_link": "https://www.instagram.com/faith47/",
+    "website_link": "https://faith47.com"
+  }
+]

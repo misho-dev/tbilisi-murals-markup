@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Tbilisi Mural Fest </title>
+    <meta charset="utf-8">
+    <meta name="description" content="Tbilisi Mural Fest">
+    <meta name="keywords"
+        content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival">
+    <meta name="author" content="Tbilisi Mural Fest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/Faster.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <script src="/static/js/jquery-3.6.3.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("/templates/header.html");
+            $("#footer").load("/templates/footer.html");
+        });
+    </script>
+</head>
+
+<body>
+    <div id="header"></div>
+    <div class="nav-bar-spacer"></div>
+    <hr>
+    <div class="Section-Title">
+        <h1 id="name"></h1>
+    </div>
+    <hr>
+    <script>
+        let data;
+        let galleryByYear;
+        const defaultYear = new URLSearchParams(window.location.search).get('year')
+        const defaultLocation = new URLSearchParams(window.location.search).get('location')
+        $.ajaxSetup({
+            async: false
+        });
+        $.getJSON("/test.json", function (json) {
+            const currentId = new URLSearchParams(window.location.search).get('id') - 1
+            data = json[currentId];
+            galleryByYear = data.images;
+            console.log(data);
+        });
+        $.ajaxSetup({
+            async: true
+        });
+    </script>
+    <div class="container">
+
+        <main>
+            <div class="row">
+                <div class="left col-lg-4">
+                    <div class="photo-left">
+                        <img id="profile-picture" class="photo" src="" />
+                    </div>
+
+                    <hr>
+                    <div class="Section-Title">
+                        <h1 id="name"></h1>
+                    </div>
+                    <hr>
+                    
+                    <p id="bio" class="desc"></p>
+
+                    <div class="container">
+                        <div class="social-icons">
+                            <ul>
+                                <li><a id="facebook-link" href=""><i class="icon-facebook"></i></a></li>
+                                <li><a id="instagram-link" href=""><i class="icon-instagram"></i></a></li>
+                                <li><a id="website-link" href=""><i class="icon-globe"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="gallery-wrapper" class="right col-lg-8 verticalCenter">
+                    <div id="year-list" class="year-list">
+                        <script>
+                            function createYearList(year, location){
+                                let yearButton = document.createElement("div");
+                                yearButton.classList.add("year-list-item");
+                                if(year == defaultYear && location == defaultLocation){
+                                    yearButton.classList.add("active");
+                                }
+                                yearButton.innerHTML = location + " " + year;
+                                document.getElementById("year-list").appendChild(yearButton);
+                            }
+
+                            for(let year of galleryByYear) {
+                                createYearList(year.year, year.location)
+                            }
+                        </script>
+                    </div>
+
+                    <template id="swiper-template">
+                        <div id="swiper-container" class="swiper-container">
+                            <div id="swiper-wrapper" class="swiper-wrapper">
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </template>
+
+                    <script>
+                        function createSwiper(yearData){
+                            const t = document.getElementById("swiper-template");
+                            const clone = t.content.cloneNode(true);
+                            clone.querySelector("#swiper-container").setAttribute('class', "swiper-container " + (yearData.year == defaultYear ? "active-swiper" : "container-hidden"));
+                            clone.querySelector("#swiper-container").setAttribute('id', 'year-' + yearData.location + " " + yearData.year);
+                            for(let imageLink of yearData.images){
+                                let outerSlide = document.createElement("div");
+                                outerSlide.classList.add("swiper-slide");
+                                let innerSlide = document.createElement("img");
+                                innerSlide.src = "/static/artist-images/" + data.id + "/" + imageLink;
+                                outerSlide.appendChild(innerSlide);
+                                clone.querySelector("#swiper-wrapper").appendChild(outerSlide);
+                            }
+                            document.getElementById("gallery-wrapper").appendChild(clone)
+                        }
+
+                        for(let year of galleryByYear){
+                            createSwiper(year);
+                        }
+                    </script>
+
+
+                    <!-- Swiper JS -->
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+                    <!-- Initialize Swiper -->
+                    <script src="/static/js/swiper.js "></script>
+                </div>
+        </main>
+        <script>
+            document.getElementById("name").innerHTML = data.name;
+            document.getElementById("bio").innerHTML = data.bio;
+            document.getElementById("profile-picture").src = data.imageLink;
+            document.getElementById("name").innerHTML = data.name
+            if(data.facebook_link !== ""){
+                document.getElementById("facebook-link").href = data.facebook_link;
+            }else{
+                document.getElementById("facebook-link").style.display = "none";
+            }
+
+            if(data.instagram_link !== ""){
+                document.getElementById("instagram-link").href = data.instagram_link;
+            }else{
+                document.getElementById("instagram-link").style.display = "none";
+            }
+
+            if(data.website_link !== ""){
+                document.getElementById("website-link").href = data.website_link;
+            }else{
+                document.getElementById("website-link").style.display = "none";
+            }
+        </script>
+    </div>
+    <script src="/static/js/artist-gallery.js"></script>
+    <hr>
+    <div id="footer"></div>
+
+</body>
+
+</html>

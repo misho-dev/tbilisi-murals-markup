@@ -12,12 +12,12 @@ var swiper = new Swiper('.swiper-container', {
     },
 });
 
-$(".swiper-container").mouseenter(function () {
-    mySwiper.autoplay.stop();
-    console.log('slider stopped');
-});
+// $(".swiper-container").mouseenter(function () {
+//     swiper.autoplay.stop();
+//     console.log('slider stopped');
+// });
 
-$(".swiper-container").mouseleave(function () {
-    mySwiper.autoplay.start();
-    console.log('slider started again');
-});
+// $(".swiper-container").mouseleave(function () {
+//     swiper.autoplay.start();
+//     console.log('slider started again');
+// });
