@@ -1,104 +1,114 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title> Tbilisi Mural Fest </title>
-    <meta charset="utf-8">
-    <meta name="description" content="Tbilisi Mural Fest">
-    <meta name="keywords" content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival">
-    <meta name="author" content="Tbilisi Mural Fest">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <script src="/static/js/jquery-3.6.3.min.js" type="text/javascript"></script>
+  <head>
+    <title>Tbilisi Mural Fest</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Tbilisi Mural Fest" />
+    <meta
+      name="keywords"
+      content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival"
+    />
+    <meta name="author" content="Tbilisi Mural Fest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <script
+      src="/static/js/jquery-3.6.3.min.js"
+      type="text/javascript"
+    ></script>
     <script src="/static/js/slick.js"></script>
 
-    <link rel="stylesheet" href="static/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
-    <link rel="stylesheet" type="text/css" href="../static/css/ArtistsNew.css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../static/css/ArtistsNew.css"
+    />
 
     <script>
-        $(function() {
-            $("#header").load("../templates/header.html");
-            $("#sponsors").load("../templates/sponsors.html");
-            $("#footer").load("../templates/footer.html");
-        });
+      $(function () {
+        $("#header").load("../templates/header.html");
+        $("#sponsors").load("../templates/sponsors.html");
+        $("#footer").load("../templates/footer.html");
+      });
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="header"></div>
     <div class="nav-bar-spacer"></div>
 
-
-
     <div class="Artist-Listing-Wrapper">
-        <div id="artist-gallery" class="artist-gallery">
+      <div id="artist-gallery" class="artist-gallery">
+        <template id="artist-card">
+          <a id="href-link" href="">
+            <div class="gallery-item">
+              <img id="image-source" src="" width="100%" />
+              <div class="gallery-item-caption">
+                <div>
+                  <h3 id="name"></h3>
+                </div>
+              </div>
+            </div>
+          </a>
+        </template>
 
-            <template id="artist-card">
-                <a id="href-link" href="">
-                    <div class="gallery-item">
-                        <img id="image-source" src="" width="100%">
-                        <div class="gallery-item-caption">
-                            <div>
-                                <h3 id="name"></h3>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </template>
-            
-            <script>
-                function createArtistCard(card) {
-                  const t = document.getElementById("artist-card");
-                  const clone = t.content.cloneNode(true);
-                  clone.querySelector("#name").innerText = card.name;
-                  clone.querySelector("#href-link").href = card.link;
-                  clone.querySelector("#image-source").src = card.imageLink;
-                  document.getElementById("artist-gallery").appendChild(clone);
-                }
-  
-                $.getJSON("/test.json", function (json) {
-                  for (let artist of json) {
-                    createArtistCard(artist);
-                  }
-                  for(let i = 0; i < 4; i++){
-                    const emptynode = document.createElement("a");
-                    const emptyNodeInnerHtml = document.createElement("div");
-                    emptyNodeInnerHtml.classList.add("gallery-item");
-                    emptyNodeInnerHtml.style.height = "0px";
-                    emptynode.appendChild(emptyNodeInnerHtml);
-                    document.getElementById("artist-gallery").appendChild(emptynode);
-                  }
-                });
-              </script>
-        </div>
+        <script>
+          function createArtistCard(card) {
+            const t = document.getElementById("artist-card");
+            const clone = t.content.cloneNode(true);
+            clone.querySelector("#name").innerText = card.name;
+            clone.querySelector("#href-link").href = card.link;
+            clone.querySelector("#image-source").src = card.imageLink;
+            document.getElementById("artist-gallery").appendChild(clone);
+          }
+
+          $.getJSON("/test.json", function (json) {
+            for (let artist of json) {
+              createArtistCard(artist);
+            }
+            for (let i = 0; i < 6; i++) {
+              const emptynode = document.createElement("a");
+              const emptyNodeInnerHtml = document.createElement("div");
+              emptyNodeInnerHtml.classList.add("gallery-item");
+              emptyNodeInnerHtml.style.height = "0px";
+              emptynode.appendChild(emptyNodeInnerHtml);
+              document.getElementById("artist-gallery").appendChild(emptynode);
+            }
+          });
+        </script>
+      </div>
     </div>
 
-
-
-    <br><br><br>
-
+    <br /><br /><br />
 
     <div id="maps">
-        <iframe id="map" class="Map" frameborder="0" style="border:0; pointer-events:none" src="https://www.google.com/maps/d/embed?mid=1ab40anDsPbdJe4hsuncN5zrh3pfkVDls"></iframe>
+      <iframe
+        id="map"
+        class="Map"
+        frameborder="0"
+        style="border: 0; pointer-events: none"
+        src="https://www.google.com/maps/d/embed?mid=1ab40anDsPbdJe4hsuncN5zrh3pfkVDls"
+      ></iframe>
     </div>
 
     <script>
-        $(function() {
-            $('#maps').click(function(e) {
-                $(this).find('iframe').css('pointer-events', 'all');
-            }).mouseleave(function(e) {
-                $(this).find('iframe').css('pointer-events', 'none');
-            });
-        })
+      $(function () {
+        $("#maps")
+          .click(function (e) {
+            $(this).find("iframe").css("pointer-events", "all");
+          })
+          .mouseleave(function (e) {
+            $(this).find("iframe").css("pointer-events", "none");
+          });
+      });
     </script>
 
-
-
     <div id="sponsors"></div>
-    <br>
+    <br />
     <div id="footer"></div>
-
-</body>
-
+  </body>
 </html>

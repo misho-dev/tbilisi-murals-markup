@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="/static/css/Faster.css">
     <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/css/font-awesome.min.css">
     <script src="/static/js/jquery-3.6.3.min.js" type="text/javascript"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <script>
@@ -52,7 +52,7 @@
             async: true
         });
     </script>
-    <div class="container">
+    <div class="container outer">
 
         <main>
             <div class="row">
@@ -61,11 +61,6 @@
                         <img id="profile-picture" class="photo" src="" />
                     </div>
 
-                    <hr>
-                    <div class="Section-Title">
-                        <h1 id="name"></h1>
-                    </div>
-                    <hr>
                     
                     <p id="bio" class="desc"></p>
 
@@ -110,7 +105,7 @@
                         function createSwiper(yearData){
                             const t = document.getElementById("swiper-template");
                             const clone = t.content.cloneNode(true);
-                            clone.querySelector("#swiper-container").setAttribute('class', "swiper-container " + (yearData.year == defaultYear ? "active-swiper" : "container-hidden"));
+                            clone.querySelector("#swiper-container").setAttribute('class', "swiper-container " + ((yearData.year == defaultYear && yearData.location == defaultLocation) ? "active-swiper" : "container-hidden"));
                             clone.querySelector("#swiper-container").setAttribute('id', 'year-' + yearData.location + " " + yearData.year);
                             for(let imageLink of yearData.images){
                                 let outerSlide = document.createElement("div");
@@ -161,7 +156,6 @@
         </script>
     </div>
     <script src="/static/js/artist-gallery.js"></script>
-    <hr>
     <div id="footer"></div>
 
 </body>

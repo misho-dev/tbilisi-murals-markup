@@ -574,11 +574,21 @@ nav {
 .year-list-item {
   display: inline-block;
   cursor: pointer;
+  width: 130px;
+  height: 30px;
+  margin: 10px;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  font-family: "gilroy";
+  text-decoration: none;
+  line-height: 20px;
+  font-size: 20px;
 }
 
 .year-list .active {
-  color: #f44336;
-  text-decoration: underline;
+  background-color: #26304d;
 }
 
 .Artist-Name {
@@ -1283,7 +1293,7 @@ blockquote p {
   z-index: 2;
   letter-spacing: 10px;
   font-weight: normal;
-  font-family: most;
+  font-family: gilroy;
   text-align: center;
   /* Bright things in dark environments usually cast that light, giving off a glow */
   filter: drop-shadow(0 1px 1px);
@@ -2136,5 +2146,9 @@ body.lb-disable-scrolling {
     cursor: pointer;
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     opacity: 1;
+  }
+
+  .hero-main-page {
+    font-family: "gilroy";
   }
   

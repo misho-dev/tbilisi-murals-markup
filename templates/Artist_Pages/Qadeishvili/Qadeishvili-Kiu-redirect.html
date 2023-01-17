@@ -1,116 +1,132 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Tbilisi Mural Fest</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="Tbilisi Mural Fest" />
+    <meta
+      name="keywords"
+      content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival"
+    />
+    <meta name="author" content="Tbilisi Mural Fest" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
 
-<head>
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/Faster.css" />
+    <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="static/css/font-awesome.min.css" />
 
-    <title> Tbilisi Mural Fest </title>
-    <meta charset="utf-8">
-    <meta name="description" content="Tbilisi Mural Fest">
-    <meta name="keywords"
-        content="Tbilisi,Mural,Festival,Fest,HRVB,Case,Grafiti,Tbilisi Mural Fest, Tbilisi Mural Festival">
-    <meta name="author" content="Tbilisi Mural Fest">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <script
+      src="/static/js/jquery-3.6.3.min.js"
+      type="text/javascript"
+    ></script>
 
-    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/Faster.css">
-    <link rel="stylesheet" type="text/css" href="/static/css/ArtistPage.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" href="static/css/font-awesome.min.css">
-
-    <script src="/static/js/jquery-3.6.3.min.js" type="text/javascript"></script>
-    
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
     <script>
-        $(function () {
-            $("#header").load("/templates/header.html");
-            $("#footer").load("/templates/footer.html");
-        });
+      $(function () {
+        $("#header").load("/templates/header.html");
+        $("#footer").load("/templates/footer.html");
+      });
     </script>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <div id="header"></div>
     <div class="nav-bar-spacer"></div>
 
-
     <div class="container">
-        <main>
-            <div class="row">
-                <div class="left col-lg-4">
-                    <div class="photo-left">
-                        <img class="photo" src="/static/images/Profile Pictures/Qadeishvili.webp" />
-                    </div>
-                    <hr>
-                    <div class="Section-Title">
-                        <h1>Irakli Qadeishvili & Zviad esartia</h1>
-                    </div>
-                    <hr>
+      <main>
+        <div class="row">
+          <div class="left col-lg-4">
+            <div class="photo-left">
+              <img
+                class="photo"
+                src="/static/images/Profile Pictures/Qadeishvili.webp"
+              />
+            </div>
+            <hr />
+            <div class="Section-Title">
+              <h1>Irakli Qadeishvili & Zviad esartia</h1>
+            </div>
+            <hr />
 
-                    <p class="desc">My name is Irakli Qadeishvili and I was born on 22nd of May, 1989 in Tbilisi, the
-                        capital of Georgia. I am an artist, muralist and an architect by profession. My passion for art
-                        started at an early age. When I was about four I made my first painting. The composition of the
-                        painting consisted of colorful circles – I tried to convey music through this picture.
-                        Subsequently, drawing became the primary source of my communication. As growing up, I created
-                        paintings on huge canvases and papers. I actively participated in various junior exhibitions, so
-                        I gradually started to realize what I wanted to do for the rest of my life.
-                        In 2007, I started to study at Tbilisi State Academy of Arts. Then, I decided to create a 3D
-                        anamorphic street art with my friends, which inspired me to create large-scale artworks and
-                        therefore change the surrounding environment with my work. As a result, my paintings moved into
-                        the streets.
-                        My city is full of drab and monotonous Soviet architecture, however my murals add a touch of
-                        color to this “concrete jungle”. I constantly try to use bright and vivid colors to diversify
-                        the gray facades of buildings, which accompanied me throughout my childhood with a dark stripe.
-                    </p>
+            <p class="desc">
+              My name is Irakli Qadeishvili and I was born on 22nd of May, 1989
+              in Tbilisi, the capital of Georgia. I am an artist, muralist and
+              an architect by profession. My passion for art started at an early
+              age. When I was about four I made my first painting. The
+              composition of the painting consisted of colorful circles – I
+              tried to convey music through this picture. Subsequently, drawing
+              became the primary source of my communication. As growing up, I
+              created paintings on huge canvases and papers. I actively
+              participated in various junior exhibitions, so I gradually started
+              to realize what I wanted to do for the rest of my life. In 2007, I
+              started to study at Tbilisi State Academy of Arts. Then, I decided
+              to create a 3D anamorphic street art with my friends, which
+              inspired me to create large-scale artworks and therefore change
+              the surrounding environment with my work. As a result, my
+              paintings moved into the streets. My city is full of drab and
+              monotonous Soviet architecture, however my murals add a touch of
+              color to this “concrete jungle”. I constantly try to use bright
+              and vivid colors to diversify the gray facades of buildings, which
+              accompanied me throughout my childhood with a dark stripe.
+            </p>
 
-                    <div class="container">
-                        <div class="social-icons">
-                            <ul>
+            <div class="container">
+              <div class="social-icons">
+                <ul>
+                  <li>
+                    <a href="https://www.instagram.com/iraklikadeishvili/"
+                      ><i class="icon-instagram"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="right col-lg-8 verticalCenter">
+            <div id="year-list" class="year-list">
+              <div class="year-list-item active">Kiu 2020</div>
+              | <div class="year-list-item "">Tbilisi 2021
+            </div>
+          </div>
+          <div id="year-Kiu 2020" class="swiper-container active-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="image0.webp" /></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination1"></div>
+          </div>
 
-                                <li><a href="https://www.instagram.com/iraklikadeishvili/"><i
-                                            class="icon-instagram"></i></a></li>
+          <div id="year-Tbilisi 2021" class="swiper-container container-hidden">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="image00005.webp" /></div>
+              <div class="swiper-slide"><img src="image00356.webp" /></div>
+              <div class="swiper-slide"><img src="image00358.webp" /></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination swiper-pagination2"></div>
+          </div>
 
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="right col-lg-8 verticalCenter">
-                    <div id="year-list" class="year-list">
-                        <div class="year-list-item active">Kiu 2020</div>
-                        |
-                        <div class="year-list-item "">Tbilisi 2021</div>
-                    </div>
-                    <div id="year-Kiu 2020" class="swiper-container active-swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"> <img src="image0.jpeg" /></div>
-                            </div>
-                            <!-- Add Pagination -->
-                            <div class="swiper-pagination swiper-pagination1"></div>
-                        </div>
+          <!-- Swiper JS -->
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-                        <div id="year-Tbilisi 2021" class="swiper-container  container-hidden">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide"> <img src="image00005.jpeg" /></div>
-                                <div class="swiper-slide"> <img src="image00356.jpeg" /></div>
-                                <div class="swiper-slide"> <img src="image00358.jpeg" /></div>
-                            </div>
-                            <!-- Add Pagination -->
-                            <div class="swiper-pagination swiper-pagination2"></div>
-                        </div>
-
-                        <!-- Swiper JS -->
-                        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-                        <!-- Initialize Swiper -->
-                        <script src="/static/js/swiper.js"></script>
-                    </div>
-        </main>
+          <!-- Initialize Swiper -->
+          <script src="/static/js/swiper.js"></script>
+        </div>
+      </main>
     </div>
 
     <script src="/static/js/artist-gallery.js"></script>
     <div id="footer"></div>
-</body>
-
+  </body>
 </html>
