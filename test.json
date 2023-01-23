@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "name": "LUIS GINEZ DE TERAN",
+    "name": "Ginez De Teran",
     "link": "/templates/artist-template.html?id=2&year=2022&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/luis.webp",
     "images": [
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "name": "MOHAMED I G’HACHAM",
+    "name": "Mohamed I G’hacham",
     "link": "/templates/artist-template.html?id=5&year=2022&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/mohamed.webp",
     "images": [
