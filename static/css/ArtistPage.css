@@ -12,10 +12,6 @@ body {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.10), 0 3px 6px rgba(0, 0, 0, 0.10);
 }
 
-.outer {
-    min-height: calc(calc(calc(calc(100vh - 7vh) - 150px) - 4rem) - 105px);
-}
-
 .socials {
     height: 200px;
     background: white;
@@ -36,11 +32,6 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
-}
-
-.row {
-    width: 100%;
-    height: 100%;
 }
 
 .social-icon {
@@ -64,11 +55,6 @@ body {
 
 main {
     padding: 20px 20px 0px 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
 .left {
@@ -76,7 +62,6 @@ main {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
 }
 
 .photo {
@@ -100,7 +85,6 @@ main {
 
 .right {
     padding: 0 25px 0 25px !important;
-    height: 100%;
 }
 
 .nav {
@@ -134,16 +118,6 @@ main {
     }
     .swiper-container {
         width: 100% !important;
-    }
-
-    .outer {
-        height: auto;
-    }
-    .right{
-        height: auto;
-    }
-    .left {
-        height: auto;
     }
 }
 
@@ -197,6 +171,6 @@ main {
     box-shadow: none;
 }
 .swiper-slide img {
-    height: 100%;
+    width: 100%;
     object-fit: contain;
 }

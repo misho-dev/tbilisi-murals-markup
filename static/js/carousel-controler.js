@@ -1,11 +1,12 @@
 var myIndex = 1;
+let numImages = 15
 carousel();
 
 function carousel() {
-    if (myIndex > 10) {
+    if (myIndex > numImages) {
         myIndex = 1;
     } else if (myIndex < 1) {
-        myIndex = 10;
+        myIndex = numImages;
     }
 
     document.getElementById("inner-carousel").style.backgroundImage = `url('Carousel/carousel${myIndex}.webp')`;
@@ -18,10 +19,10 @@ function plusDivs(n) {
 }
 
 function showDivs(n) {
-    if (myIndex > 10) {
+    if (myIndex > numImages) {
         myIndex = 1;
     } else if (myIndex < 1) {
-        myIndex = 10;
+        myIndex = numImages;
     }
     document.getElementById("inner-carousel").style.backgroundImage = `url('Carousel/carousel${myIndex}.webp')`;
 }
