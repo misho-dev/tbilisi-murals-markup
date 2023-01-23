@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "name": "Ginez De Teran",
+    "name": "Luis Ginez De Teran",
     "link": "/templates/artist-template.html?id=2&year=2022&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/luis.webp",
     "images": [
@@ -57,11 +57,11 @@
     "link": "/templates/artist-template.html?id=5&year=2022&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/mohamed.webp",
     "images": [
-      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp"]}
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.jpeg"]}
     ],
     "bio": "---",
     "facebook_link": "",
-    "instagram_link": "",
+    "instagram_link": "https://www.instagram.com/mohamedlghacham/",
     "website_link": ""
   },
   {
@@ -85,10 +85,10 @@
     "images": [
       {"year" : "2021", "location" : "Tbilisi", "images" : ["1.webp", "2.webp", "3.webp"]}
     ],
-    "bio": "---",
-    "facebook_link": "",
-    "instagram_link": "",
-    "website_link": ""
+    "bio": "Judith de Leeuw, also known as JDL street art, creates large- scale murals worldwide in order to draft attention to social issues. In a period of 6 years she managed to travel and work over 41 countries, including big parts of Europe, Asia and the United states. In 2021, JDL’s work was sold for a record of 2,9 million in cryptocurrency of which she donated one million to charity.",
+    "facebook_link": "https://www.facebook.com/jdlstreetartofficial/",
+    "instagram_link": "https://www.instagram.com/jdlstreetart/",
+    "website_link": "https://jdlstreetart.com"
   },
   {
     "id": 8,
@@ -256,8 +256,8 @@
     "link": "/templates/artist-template.html?id=20&year=2020&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/Innerfields.webp",
     "images": [
-      {"year" : "2020", "location" : "Kutaisi", "images" : ["6.webp", "7.webp"]},
       {"year" : "2019", "location" : "Tbilisi", "images" : ["4.webp", "5.webp"]},
+      {"year" : "2020", "location" : "Kutaisi", "images" : ["6.webp", "7.webp"]},
       {"year" : "2020", "location" : "Tbilisi", "images" : ["1.webp", "2.webp", "3.webp"]}
     ],
     "bio": "Innerfields are the three artists Jakob Tory Bardou, Holger Weißflog and Veit Tempich. Born and based in Berlin, they‘ve been growing up with graffiti and various influences; they formed as a group in 1998. The artists like to reflekt their environment and create mostly figurative motives in a realistic manner, that are mixed with grafical elements and symbols. The human being, bound to being part of the nature and all to often opposed to it, is a major topic in their body of work. They are creating works of art as a proffession and love taking part in festivals and various art related projekts around the world",
@@ -285,6 +285,7 @@
     "imageLink": "/static/images/Profile Pictures/Case.webp",
     "images": [
       {"year" : "2019", "location" : "Tbilisi", "images" :  ["3.webp", "4.webp", "5.webp"]},
+      {"year" : "2020", "location" : "Kutaisi", "images" : ["6.webp"]},
       {"year" : "2020", "location" : "Tbilisi", "images" : ["1.webp", "2.webp"]}
     ],
     "bio": "A German urban artist native to Frankfurt, Andres Von Chrzanowski (a.k.a. CASE or CASE Maclaim) is a graffiti painter who relies on his highly developed talent to create pieces that combine brilliant photorealism with a strong note of surrealism. This artist primarily uses spray paint as this street art technique enables him to get the most out of his visuals and achieve the level of perfection his incredibly life-like graffiti possess. One of Andres Von Chrzanowski’s most common pictorial motifs are the overlaying hands that symbolize unity and power. It should also be noted that CASE is a founding member of the renown East- Germany Maclaim Crew, a group that has been the urban expression’s photorealism pioneer for over two decades now.",
@@ -295,10 +296,10 @@
   {
     "id": 23,
     "name": "Musya",
-    "link": "/templates/artist-template.html?id=23&year=2020&location=Tbilisi",
+    "link": "/templates/artist-template.html?id=23&year=2019&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/Musya.webp",
     "images": [
-      {"year" : "2020", "location" : "Tbilisi", "images" : ["1.webp", "2.webp", "3.webp", "4.webp"]}
+      {"year" : "2019", "location" : "Tbilisi", "images" : ["1.webp", "2.webp", "3.webp", "4.webp"]}
     ],
     "bio": "Born and raised in Georgia, a former Soviet Union country in the far east of Europe. At the age of 16, moved to capital city of Georgia, Tbilisi. Currently25 years old and is based in Tbilisi. She has chosen her occupation since childhood. She always knew that She would do nothing, but only art. Afterwards, while studying at Art Academy she decided to study Graphical Design and elaborated her knowledge in this field. Nowadays she is working as an Art Director in one of the most successful advertising companies in Georgia and also, is pursuing some side projects commercial and non-commercial. She is using different techniques for working, such as painting digital illustrations, hand-painting, wall painting, streetart and stencil; She is also occupied with creating some handicrafts and jewelry.",
     "facebook_link": "https://www.facebook.com/musyasart/",
@@ -374,10 +375,10 @@
   {
     "id": 29,
     "name": "Faith47",
-    "link": "/templates/artist-template.html?id=29&year=2022&location=Tbilisi",
+    "link": "/templates/artist-template.html?id=29&year=2021&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/faith.webp",
     "images": [
-      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp" ]}
+      {"year" : "2021", "location" : "Tbilisi", "images" : ["1.webp", "2.webp", "3.webp", "4.webp", "5.webp" ]}
     ],
     "bio": "Faith47 / Faith XLVII (born Cape Town, 1979) is a South African interdisciplinary artist who has held solo exhibitions in Miami (2018), New York City (2015), London (2014) and Johannesburg (2012). As both a notable South African and woman artist, Faith speaks to issues of human rights, spiritual endurance and social issues. As both a notable South African and woman artist, Faith speaks to issues of human rights, spiritual endurance and social issues. Faith XLVII began painting in 1997, three years after the end of apartheid. Using a wide range of media, her approach is explorative and substrate appropriate – from found and rescued objects, to time-layered and history-textured city walls, to studio-prepared canvas and wood. A self-taught artist, Faith is widely regarded as one of the most famous South African street artists, her art reaching international fame.",
     "facebook_link": "",
