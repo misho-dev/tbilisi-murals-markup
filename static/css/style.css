@@ -383,7 +383,7 @@ nav {
 }
 
 .Welcome-Message h1 {
-  font-size: 3em;
+  font-size: 1.5em;
 }
 
 .Swiper-Artists-Wrapper {
@@ -577,8 +577,8 @@ nav {
   width: 130px;
   height: 30px;
   margin: 10px;
-  background-color: #000000;
-  color: white;
+  background-color: #00000000;
+  color: black;
   text-align: center;
   padding: 5px;
   font-family: "gilroy";
@@ -588,7 +588,8 @@ nav {
 }
 
 .year-list .active {
-  background-color: #26304d;
+  background-color: #000000;
+  color: white;
 }
 
 .Artist-Name {
@@ -2148,6 +2149,18 @@ body.lb-disable-scrolling {
   }
 
   .hero-main-page {
-    font-family: "gilroy";
+    line-height: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    z-index: 2;
+    letter-spacing: 10px;
+    font-weight: normal;
+    font-family: gilroy;
+    text-align: center;
+    /* Bright things in dark environments usually cast that light, giving off a glow */
+    filter: drop-shadow(0 1px 1px);
   }
   
