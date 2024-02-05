@@ -1,5 +1,5 @@
 var myIndex = 1;
-let numImages = 15
+let numImages = 19
 carousel();
 
 function carousel() {

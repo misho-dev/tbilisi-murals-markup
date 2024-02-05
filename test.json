@@ -31,7 +31,8 @@
     "link": "/templates/artist-template.html?id=3&year=2022&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/vesod.webp",
     "images": [
-      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp"]}
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp"]},
+      {"year" : "2023", "location" : "Kutaisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg"]}
     ],
     "bio": "Vesod was born in Turin in 1981 and he lives and works in a Venaria Reale. His artistic attitude has been fostered by his father Dovilio Brero, surrealistic painter, whose influence has an impact on Vesod since his youth: he has been therefore developing an interest in the graffiti world since the beginning of the 90s.Due to the artistic partnerships and contacts which Vesod has started in those teenager years, he has lately begun his professional path. He has been seeking for ten years a personal painting language in which the graffiti plays a central role, while dedicating time to his own cultural and academic education.",
     "facebook_link": "https://www.facebook.com/VesodB",
@@ -42,9 +43,11 @@
     "id": 4,
     "name": "Sasha Korban",
     "link": "/templates/artist-template.html?id=4&year=2022&location=Tbilisi",
-    "imageLink": "/static/images/Profile Pictures/sasha.webp",
+    "imageLink": "/static/images/Profile Pictures/sasha1.webp",
     "images": [
-      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp"]}
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp"]},
+      {"year" : "2023", "location" : "Tbilisi", "images" : ["2023-1.jpeg", "2023-2.jpeg", "2023-3.jpeg", "2023-4.jpeg", "2023-5.jpeg", "2023-6.jpeg", "2023-7.jpeg"]},
+      {"year" : "2023", "location" : "Kutaisi", "images" : ["2023-1-1.jpeg", "2023-1-2.jpeg", "2023-1-3.jpeg"]}
     ],
     "bio": "Born on March 12, 1987, in Kirovske of Donetsk Region, Ukraine. In 2006-2011 he worked as a miner at the mine “Komsomolets Donbasu”. For the first time he tried to create street art as far back as in 2002. But he thinks that the start of his conscious work on the street as a graffiti artist was in 2009.",
     "facebook_link": "https://www.facebook.com/Sasha.Korban2/",
@@ -96,7 +99,9 @@
     "link": "/templates/artist-template.html?id=8&year=2022&location=Tbilisi",
     "imageLink": "/static/images/Profile Pictures/tina.webp",
     "images": [
-      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp"]}
+      {"year" : "2022", "location" : "Tbilisi", "images" : ["1.webp"]},
+      {"year" : "2023", "location" : "Kutaisi", "images" : ["2023-1.jpeg", "2023-2.jpeg"]},
+      {"year" : "2023", "location" : "Tbilisi", "images" : ["2023-1-1.jpeg", "2023-1-2.jpeg", "2023-1-3.jpeg", "2023-1-4.jpeg"]}
     ],
     "bio": "---",
     "facebook_link": "https://www.facebook.com/ChertovaT",
@@ -384,5 +389,97 @@
     "facebook_link": "",
     "instagram_link": "https://www.instagram.com/faith47/",
     "website_link": "https://faith47.com"
+  },
+  {
+    "id": 30,
+    "name": "GERA 1",
+    "link": "/templates/artist-template.html?id=30&year=2023&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/gera1.webp",
+    "images": [
+      {"year" : "2023", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"]}
+    ],
+    "bio": "Gera is a Visual Artist who lives and works in Athens, Greece. He started as a graffiti writer and he has also graduated from the School of Fine Arts. His practice focuses on reinterpreting reality through the visualization of recurring color contrasts. Getting his influence from the glitch art aesthetic, he attempts to intercommunicate parallel stories narrated through multiple layers of movement, form, and texture. His figurative expression becomes part of an abstract language where malfunction, error, and deformation coexist in an environment of harmonic deconstruction.",
+    "facebook_link": "https://www.facebook.com/gera1.net",
+    "instagram_link": "https://www.instagram.com/gera1__?fbclid=IwAR0ua2QFlbm8eH0sZq3YKVaQdrlSCFvDPPxkERDoG8vUjBMlDP-d9VeRnNE",
+    "website_link": "https://gera1.net/?fbclid=IwAR32-dU8OEk6yj2vfP-t7JIBjMtszrourrhw-j7iT5uMvpk3Flg-6z8EoSI"
+  },
+  {
+    "id": 31,
+    "name": "Telmo Miel",
+    "link": "/templates/artist-template.html?id=31&year=2023&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/telmo.webp",
+    "images": [
+      {"year" : "2023", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg"]}
+    ],
+    "bio": "Miel ( Amsterdam, born May ’84 ) and Telmo ( Rotterdam, born June ’89 ) started their company 'TelmoMiel' in the beginning of October 2012. Them meeting (in 2006) made attending the Academy a success. Almost everything that was learned, they got from working with each other. Telmo and Miel started to do murals together, with individual pieces into one composition. This evolved into painting one image together, creating concepts and designs as a duo.",
+    "facebook_link": "https://www.facebook.com/TelmoMiel",
+    "instagram_link": "https://www.instagram.com/telmomiel/?hl=nl",
+    "website_link": "https://telmomiel.com/?fbclid=IwAR0BAkaYsUzAZseyxdDBLlmqAC7T06a1rDZGjCgF4gH-NTURkyTBefZq9Tw"
+  },
+  {
+    "id": 32,
+    "name": "Milu Correch",
+    "link": "/templates/artist-template.html?id=32&year=2023&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/milu.webp",
+    "images": [
+      {"year" : "2023", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg"]}
+    ],
+    "bio": "Milagros Correch (born 1991, Villa Urquiza, Buenos Aires), better known as Milu Correch, is an Argentine painter and muralist recognized internationally for her large scale murals and illustrations. Her work can be found in cities in Argentina and around the world.",
+    "facebook_link": "https://www.facebook.com/milucorrechoficial",
+    "instagram_link": "https://www.instagram.com/milucorrech",
+    "website_link": "https://www.milucorrech.com/?fbclid=IwAR0ryuTyO-y7xrEW50EU1fwZoDYJUvlKc4-OHdD46Pw94WIL-pYCH3-yHO8"
+  },
+  {
+    "id": 33,
+    "name": "Giorgi Pablo Kalandarishvili",
+    "link": "/templates/artist-template.html?id=33&year=2023&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/giokala.webp",
+    "images": [
+      {"year" : "2023", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg"]}
+    ],
+    "bio": "",
+    "facebook_link": "https://www.facebook.com/kalagio.giorgi",
+    "instagram_link": "https://www.instagram.com/Pablo_kalandarishvili?fbclid=IwAR3oyeeN83HcJkMqEsneJpU4Dt87pwU5TJoMN0g4H9P1IaCNpYdnPXB-TU4",
+    "website_link": ""
+  },
+  {
+    "id": 34,
+    "name": "Slim Safont & WEDO",
+    "link": "/templates/artist-template.html?id=34&year=2023&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/safont.webp",
+    "images": [
+      {"year" : "2023", "location" : "Tbilisi", "images" : ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg","6.jpeg"]}
+    ],
+    "bio": "Nil Safont, born in Berga (Barcelona) in 1995 and graduated in Fine Arts from the University of Barcelona. At the age of 12, he instinctively began to delve into the universe of urban art and painting. His name is present, both nationally and internationally, in the sector's panorama since 2017. He is co-founder and member of @malpais.malpais, a polyhedral OFF SPACE focused on artistic production with a great exhibition space and annual programming in Barcelona.",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
+  },
+  {
+    "id": 35,
+    "name": "Nanina",
+    "link": "/templates/artist-template.html?id=35&year=2023&location=Tbilisi",
+    "imageLink": "/static/images/Profile Pictures/nanina.webp",
+    "images": [
+      {"year" : "2023", "location" : "Tbilisi", "images" :  ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"]}
+    ],
+    "bio": "",
+    "facebook_link": "https://www.facebook.com/naninaart",
+    "instagram_link": "https://www.instagram.com/slimsafont/",
+    "website_link": "https://www.slimsafont.com/"
+  },  {
+    "id": 36,
+    "name": "Thiago Mazza",
+    "link": "/templates/artist-template.html?id=36&year=2023&location=Kutaisi",
+    "imageLink": "/static/images/Profile Pictures/mazza.webp",
+    "images": [
+      {"year" : "2023", "location" : "Kutaisi", "images" : ["1.jpeg", "2.jpeg"]}
+    ],
+    "bio": "",
+    "facebook_link": "",
+    "instagram_link": "",
+    "website_link": ""
   }
 ]
+
+
