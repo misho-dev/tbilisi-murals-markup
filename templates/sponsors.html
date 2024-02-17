@@ -3,44 +3,27 @@
       <h1>Our Partners</h1>
    </div> -->
   <br />
-  <section class="customer-logos slider">
-    <div class="slide">
-      <img src="/static/images/Sponsors/Adjara-group.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/Alpina.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/Berlin_Logo.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/Bundesrepublik.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/issa-logo-com.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/King-david.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/Montana-cans.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/Re-Bank.webp" loading="lazy" />
-    </div>
-    <div class="slide">
-      <img
-        src="/static/images/Sponsors/Tbilisi-city-hall.webp"
-        loading="lazy"
-      />
-    </div>
-    <div class="slide">
-      <img src="/static/images/Sponsors/Artarea.webp" loading="lazy" />
-    </div>
+  <section id="sponsor-slider" class="customer-logos slider">
+
+    <template id="sponsor-card">
+      <div class="slide">
+        <img id="image-source" src="" loading="lazy" />
+      </div>
+    </template>
+
+
   </section>
 </div>
 <script>
-  $(document).ready(function () {
+  function createSponsorSlide(slide) {
+    const t1 = document.getElementById("sponsor-card"); // Removed '#' from the ID
+    const clone = t1.content.cloneNode(true);
+
+    clone.querySelector("#image-source").src = slide.imageLink;
+    document.getElementById("sponsor-slider").appendChild(clone);
+  }
+
+  function initializeSlider() {
     $(".customer-logos").slick({
       centerMode: true,
       slidesToShow: 9,
@@ -66,5 +49,15 @@
         },
       ],
     });
+  }
+
+  $.getJSON("/sponsors.json", function(json) {
+    for (let sponsor of json) {
+      createSponsorSlide(sponsor);
+    }
+    // Initialize or Re-initialize the slider here, after the slides have been added
+    initializeSlider(); // Moved slider initialization here
   });
+
+  // Removed the document.ready initialization to prevent premature initialization
 </script>
